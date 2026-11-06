@@ -31,7 +31,8 @@ jobs:
       - name: Style and audit
         run: |
           brew style --cask nurockplayer/tap/tachiko-sheet
-          brew audit --cask --strict --online nurockplayer/tap/tachiko-sheet
+          # Previews are GitHub pre-releases on purpose until v1.0.
+          brew audit --cask --strict --online --except=github_prerelease_version nurockplayer/tap/tachiko-sheet
 
       - name: Install and uninstall
         run: |
