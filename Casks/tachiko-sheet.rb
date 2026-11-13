@@ -1,8 +1,8 @@
 cask "tachiko-sheet" do
-  version "0.1.0-preview.5"
-  sha256 "d9181aee892789a50db2f3c2b906633fccc94e637208183ce77fe049a7c8ac57"
+  version "0.1.0-preview.9"
+  sha256 "4e0a7e69c728d3f538ba87d3ee1afd2379a4566b07e748230a692d3721ef9ca2"
 
-  url "https://github.com/nurockplayer/tachiko-sheet/releases/download/v#{version}/Tachiko-Sheet-v#{version}-macos-arm64.dmg"
+  url "https://github.com/nurockplayer/tachiko-sheet/releases/download/v#{version}/Tachiko-Sheet-v#{version}-macos-universal.dmg"
   name "Tachiko Sheet"
   desc "Spreadsheet with checked tables and formulas"
   homepage "https://github.com/nurockplayer/tachiko-sheet"
@@ -13,7 +13,6 @@ cask "tachiko-sheet" do
     skip "Updated by the Tachiko Sheet release workflow"
   end
 
-  depends_on arch: :arm64
   depends_on macos: :ventura
 
   app "Tachiko Sheet.app"
