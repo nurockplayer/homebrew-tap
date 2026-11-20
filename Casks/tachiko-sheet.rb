@@ -1,6 +1,6 @@
 cask "tachiko-sheet" do
-  version "0.1.0-preview.10"
-  sha256 "7b3a6d19906b1b55661bc783dc5a037a7de25cdcf59a454f9849765938d6ef3e"
+  version "0.1.0-preview.11"
+  sha256 "b82f6fe2240ae1748e854d25a007051f455d60db6e306deb359eb58c53b6575f"
 
   url "https://github.com/nurockplayer/tachiko-sheet/releases/download/v#{version}/Tachiko-Sheet-v#{version}-macos-universal.dmg"
   name "Tachiko Sheet"
